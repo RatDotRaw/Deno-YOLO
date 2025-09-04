@@ -7,3 +7,5 @@
 *.pt
 
 /node_modules
+
+!coverImage.png
