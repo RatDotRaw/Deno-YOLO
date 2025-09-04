@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "main": "deno run --allow-ffi --allow-env --allow-read main.ts",
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "onnxruntime-node": "npm:onnxruntime-node@^1.22.0-rev",
+    "sharp": "npm:sharp@^0.34.3"
+  },
+  "nodeModulesDir": "auto"
+}

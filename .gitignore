@@ -1,0 +1,9 @@
+*.png
+*.jpeg
+*.jpg
+*.png
+*.webp
+*.onnx
+*.pt
+
+/node_modules
