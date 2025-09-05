@@ -14,11 +14,11 @@ It handles image preprocessing, tensor preparation, and bounding box visualizati
 
 ## Why I Made This Project
 
-I created this project to explore and learn about **running machine learning models at a lower level** and to gain experience with model inference. By using **ONNX**, I wanted to experiment with a more portable format that could eventually be used in web-oriented environments.  
+I created this project to explore and learn about running machine learning models at a lower level and to goin a some basic experience with model inference. Using **ONNX** format, I wanted to experiment with a portable format that could be used in web-oriented environments.  
 
-I also chose **TypeScript and Deno** because I enjoy working with them more than Python, and I wanted to explore building a full workflow outside the usual Python ecosystem.  
+I chose **TypeScript and Deno** because I enjoy working with them more than Python, and I wanted to explore machine learning workflows outside the usual Python ecosystem.  
 
-Finally, this project serves as a **demonstration of my problem-solving skills and understanding of ML pipelines**, from preprocessing images to running models and visualizing outputs.
+Finally, this project serves as a **demonstration of my problem-solving skills and basic understanding of ML pipelines**, from preprocessing images to running models and visualizing outputs.
 
 ## Supported Models
 - YOLO single-object detection models only
@@ -28,7 +28,7 @@ Finally, this project serves as a **demonstration of my problem-solving skills a
 ## Requirements
 
 - An capable computer (wathever that means).
-- An **ONNX** of a `YOLO` model for **SINGLE OBJECT** detection only. (Provided `YOLOv11` model works)
+- An **ONNX** of a `YOLO` model for **SINGLE OBJECT** detection only. (Provided link of a `YOLOv11` model works)
 - A few RGB images specific to your model of choise.
 
 ## Installation
@@ -43,7 +43,7 @@ This project was written for **Deno 2.4**. Older versions might not work.
    ```
 
 3. Place your `YOLOv8 onnx` in `./models`
-   - The script by default expects the onnx file to be name `model.onnx`. If your model is named differet, either rename it or search in `main.ts` for `const modelName` and replace its value with the correct name.
+   - The script by default expects the onnx file to be named `model.onnx`. If your model is named differet, either rename it or search in `main.ts` for `const modelName` and replace its value with the correct name.
 
 ## Running the project
 
@@ -56,5 +56,4 @@ Let the magic begin!
 ## After running
 
 Now that you ran the project, nothing seem to have happened...
-The results are in a separate folder for you to look at.
-There in `outputImgs`, enjoy!
+The results are in a separate folder for you to look at, located in `./outputImgs`, enjoy!
